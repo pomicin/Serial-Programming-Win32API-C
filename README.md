@@ -1,8 +1,10 @@
 ##Serial Port Programming using Win32 API and C language
 
-This repo contains code for transmitting and receiving characters (Strings) serially between an x86 Windows PC and a Microcontroller (MSP430G2553 on Launchpad).
+<img src="http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/serial-programming-win32-api-tutorial.jpeg">
 
-<img src="http://s25.postimg.org/bqw6jzqfz/Serial_port_write_windows.jpg" alt ="Screenshot of the serial port programming code running on windows 7">
+This repo contains code for transmitting and receiving characters (Strings) serially between an x86 Windows PC and a Microcontroller (MSP430G2553 on Launchpad).The code is written in C and uses Win32 API calls to control the SerialPort on a Windows machine.
+
+<img src="http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/Serial-port-write-windows.jpeg" alt ="Screenshot of the serial port programming code running on windows 7">
 
 Full code explanation along with screenshots can be <a href = http://xanthium.in/Serial-Port-Programming-using-Win32-API> found here on the xanthium website </a>
 
