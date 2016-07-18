@@ -7,7 +7,8 @@ This repo contains code for transmitting and receiving characters (Strings) seri
 <img src="http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/Serial-port-write-windows.jpeg" alt ="Screenshot of the serial port programming code running on windows 7">
 --------------------------------------------------------------------------------------------------------------------------------------
 ##Details
-Full code explanation along with screenshots can be <a href = http://xanthium.in/Serial-Port-Programming-using-Win32-API> found here on the xanthium website </a>
+
+**Full code explanation along with screenshots can be <a href = http://xanthium.in/Serial-Port-Programming-using-Win32-API> found here on the xanthium website </a>**
 
 - The Microcontroller and PC are connected in **null modem configuration** using  3 signals (TX,RX and Ground).
 
@@ -30,6 +31,13 @@ More info about the  <a href = "http://xanthium.in/USB-to-Serial-RS232-RS485-Con
 
 - **USB2SERIAL_Read**
   - Contains Code for **Reading data** from the serial port of Windows Machine .
-  - A string is transmitted by MSP430 Microcontroller which is received by the PC Serialport and then displayed on the Console.
+  - A string is transmitted by **MSP430 Microcontroller** which is received by the PC Serialport and then displayed on the Console.
   - <img src = "http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/SerialPort-Read-Received.jpeg"/>
+  
+- **USB2SERIAL_Write**
+  - Contains Code for **Transmitting data** from the serial port of Windows Machine .
+  - A character is **transmitted by the Windows PC** towards the MSP430 Microcontroller.
+    The character is received by the MSP430 and an LED on the development board is turned ON to signify data reception. 
+  - <img src = "http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/Serial-port-write-windows.jpeg"/>
+  
 
