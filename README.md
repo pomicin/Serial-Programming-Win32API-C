@@ -29,6 +29,7 @@ More info about the  <a href = "http://xanthium.in/USB-to-Serial-RS232-RS485-Con
 ##Repo Contents 
 
 - **USB2SERIAL_Read**
-  - fff
-  - 
-- **USB2SERIAL_Write**
+  - Contains Code for **Reading data** from the serial port of Windows Machine .
+  - A string is transmitted by MSP430 Microcontroller which is received by the PC Serialport and then displayed on the Console.
+  - <img src = "http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/SerialPort-Read-Received.jpeg"/>
+
