@@ -2,7 +2,7 @@
 
 <img src="http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/serial-programming-win32-api-tutorial.jpeg">
 
-This repo contains code for transmitting and receiving data serially between an x86 Windows PC and a microcontroller (the MSP430G2553 microcontroller on the Launchpad development board). The code is written in C and uses the Win32 API calls to control the serial ports on a Windows machine.
+This repo contains code for transmitting and receiving data serially between an x86 Windows PC and a microcontroller (the MSP430G2553 microcontroller on the Launchpad development board). The code is written in C and uses Win32 API calls to control the serial ports on a Windows machine.
 
 <img src="http://xanthium.in/sites/default/files/site-images/serial-prog-win32-api/Serial-port-write-windows.jpeg" alt ="Screenshot of the serial port programming code running on windows 7">
 --------------------------------------------------------------------------------------------------------------------------------------
